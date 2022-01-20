@@ -1,3 +1,5 @@
 from setuptools import setup
-execfile('pre_build.py')
+from pre_build import *
+prepare_files()
+parse_wordlists()
 setup()
